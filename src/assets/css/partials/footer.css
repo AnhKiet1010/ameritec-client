@@ -1,0 +1,139 @@
+/* FOOTER */
+
+section.footer {
+    background-color: #0f0d2a;
+    color: #fff;
+    font-size: 18px;
+}
+
+.top-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.info-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-form label {
+    font-size: 25px;
+    -webkit-animation: my 1000ms infinite;
+    -moz-animation: my 1000ms infinite; 
+    -o-animation: my 1000ms infinite; 
+    animation: my 1000ms infinite;
+}
+
+.info-form div {
+    margin-top: 20px;
+}
+
+.info-form div input {
+    width: 400px;
+    border: none;
+    outline: none;
+    padding: 5px 20px;
+    border-radius: 40px;
+}
+
+.info-form div button {
+    color: #171F48;
+    font-size: 16px;
+    line-height: 22px;
+    background: linear-gradient(180deg, #F9F9F9 0%, #D6D6D6 100%);
+    border-radius: 40px;
+    padding: 8px 30px;
+    width: unset;
+    transition: background 0.3s ease-in-out;
+    border: none;
+    outline: none;
+}
+
+.info-form div button:hover {
+    background: linear-gradient(180deg, #F9F9F9 0%, #D6D6D6 50%);
+}
+
+.header-info {
+    font-weight: bold;
+}
+
+@-webkit-keyframes my {
+    0% { color: #F8CD0A; } 
+    50% { color: #fff;  } 
+    100% { color: #F8CD0A;  } 
+}
+@-moz-keyframes my { 
+    0% { color: #F8CD0A;  } 
+    50% { color: #fff;  }
+    100% { color: #F8CD0A;  } 
+}
+@-o-keyframes my { 
+    0% { color: #F8CD0A; } 
+    50% { color: #fff; } 
+    100% { color: #F8CD0A;  } 
+}
+@keyframes my { 
+    0% { color: #F8CD0A;  } 
+    50% { color: #fff;  }
+    100% { color: #F8CD0A;  } 
+}
+
+.header-info h3 {
+    margin-bottom: 40px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.header-info p {
+    font-size: 15px;
+}
+
+.header-info p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-info p a:hover {
+    color: rgb(158, 153, 153);
+    text-decoration: none;
+}
+
+.header-info ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 0;
+    gap: 20px;
+    margin-bottom: 60px;
+}
+
+.copy-right {
+    padding-top: 30px;
+    border-top: 1px solid #fff;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .col-md-3 {
+        width: 50%;
+        max-width: 50%;
+        flex: 0 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .info-form {
+        display: none;
+    }
+
+    .info-item {
+        margin-bottom: 30px;
+    }
+
+    .header-info h3 {
+        margin-bottom: 10px;
+    }
+}

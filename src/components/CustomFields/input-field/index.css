@@ -1,0 +1,19 @@
+label {
+    font-size: 18px !important;
+    margin-bottom: 10px;
+}
+
+.note {
+    color: dimgrey;
+    font-size: small;
+    text-align: left;
+    margin-top: 3px;
+}
+
+.error {
+    color: #F31818;
+}
+
+input[type="text"]:disabled {
+    opacity: 0.5;
+}

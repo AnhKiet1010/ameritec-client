@@ -1,0 +1,116 @@
+.swiper-container {
+    width: 100%;
+    height: 90vh;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: start;
+    justify-content: start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    /* background: url(https://vn.elsaspeak.com/wp-content/uploads/2020/09/Slider-banner-e1600253542109.png); */
+    background-image: url('../../img/slide2.jpg');
+    width: 100%;
+    background-position: bottom;
+    background-repeat: none;
+    background-size: cover;
+    padding: 30px 200px;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+    color: #fff;
+}
+
+.swiper-button-prev , .swiper-button-next {
+    margin: 0 40px;
+}
+
+
+.home-banner-text {
+    color: #fff;
+    text-align: initial;
+}
+
+.swiper-slide {
+    justify-content: start;
+}
+
+.home-banner-title {
+    font-size: 50px;
+    margin-bottom: 30px;
+    line-height: inherit;
+}
+
+.home-banner-text > span {
+    max-width: 650px;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 180%;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .swiper-container {
+        height: auto;
+    }
+    .swiper-slide {
+        padding: 50px 80px;
+    }
+
+    .home-banner-title {
+        font-size: 30px;
+        margin-bottom: 20px;
+        line-height: inherit;
+        width: 50%;
+    }
+
+    .home-banner-text > span {
+        font-weight: 300;
+        font-size: 24px;
+        margin-bottom: 20px;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .sud {
+        display: none !important;
+    } 
+    .swiper-container {
+        height: auto;
+    }
+
+    .swiper-slide {
+        padding: 30px 20px;
+        background-size: cover;
+        background-position: left;
+    }
+
+    .home-banner-title {
+        font-size: 28px;
+        margin-bottom: 20px;
+        line-height: inherit;
+        width: 100%;
+    }
+
+    .home-banner-text > span {
+        font-weight: 300;
+        font-size: 24px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+}
+

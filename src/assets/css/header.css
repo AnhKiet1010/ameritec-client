@@ -1,0 +1,68 @@
+.animate {
+  animation: bounce 1s infinite;
+}
+
+.slide-text {
+  animation: run ease 3s;
+  -webkit-animation: run ease 3s;
+  -moz-animation: run ease 3s;
+  -o-animation: run ease 3s;
+  -ms-animation: run ease 3s;
+}
+
+@keyframes run {
+  0% {
+    margin-left: -98%;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+
+@-moz-keyframes run {
+  0% {
+    margin-left: -98%;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+
+@-webkit-keyframes run {
+  0% {
+    margin-left: -98%;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+
+@-o-keyframes run {
+  0% {
+    margin-left: -98%;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+
+@-ms-keyframes run {
+  0% {
+    margin-left: -98%;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateX(-5%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateX(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}

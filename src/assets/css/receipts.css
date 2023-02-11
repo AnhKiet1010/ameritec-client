@@ -1,0 +1,16 @@
+button {
+    outline: none !important;
+}
+
+.MuiPaper-root, .MuiTabs-root, .MuiTabs-fixed {
+    width: 100% !important;
+    overflow: auto !important;
+}
+
+/* .MuiTabs-centered {
+    justify-content: start;
+}  */
+
+.MuiTab-wrapper {
+    font-weight: 700 !important;
+}

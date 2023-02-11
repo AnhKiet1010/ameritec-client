@@ -1,0 +1,62 @@
+.react-transform-wrapper {
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 50vh !important;
+    /* overflow-x: auto; */
+}
+
+.tree-ul {
+    width: fit-content;
+    margin: auto;
+}
+
+.wrap-user {
+    padding: 20px;
+    background: #aaa;
+    margin: 20px;
+    border: 2px solid #000;
+    border-radius: 15px;
+}
+
+.tree-item {
+    display: block;
+    text-align: center;
+    padding: 5px 15px;
+    width: fit-content;
+    border-radius: 10px;
+    margin: 10px auto 0;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+    font-weight: 500;
+}
+
+.group-title {
+    background-color: #8c8c8c;
+    color: #fff;
+    border: 2px solid #8c8c8c;
+    margin: auto;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 3px 10px;
+}
+
+.groups {
+    display: flex;
+    justify-content: center;
+}
+
+.group {
+    padding: 20px;
+    background: #aaa;
+    margin: 20px;
+    /* border: 2px solid #000;
+    border-radius: 15px; */
+}
+
+/* .groups .group:not(:last-child) {
+} */
+
+.list-child > .tree-ul {
+    display: flex;
+}
